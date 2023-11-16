@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T12:42:49.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GHrYbhWs2tGCtQI_jPYA" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T12:59:01.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="kF1NBoKi4wWLv2ODuL5c" version="21.2.1" type="github">
   <diagram name="第 1 页" id="4med8xy-RJINhOhO0nk7">
     <mxGraphModel dx="2074" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -29,34 +29,39 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oqHT-xyJtuEShagB2aS4-5" value="\( \frac{1}{N} \sum{i=1}^{N} (t_i - s_i)^2 \)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#96c9e9;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="470" width="140" height="60" as="geometry" />
+          <mxGeometry x="40" y="490" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oqHT-xyJtuEShagB2aS4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;fontSize=13;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-7" target="oqHT-xyJtuEShagB2aS4-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oqHT-xyJtuEShagB2aS4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;fontSize=13;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-7" target="oqHT-xyJtuEShagB2aS4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="oqHT-xyJtuEShagB2aS4-7" value="\( \Delta s_{ij} = s_i - s_j \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="oqHT-xyJtuEShagB2aS4-7" value="\( \Delta s_{ij} = s_i - s_j \)&lt;br&gt;\( \Delta t_{ij} = t_i - t_j \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="240" y="530" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="oqHT-xyJtuEShagB2aS4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;fontSize=13;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-8" target="oqHT-xyJtuEShagB2aS4-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oqHT-xyJtuEShagB2aS4-8" value="\( \Delta t_{ij} = t_i - t_j \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="240" y="450" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oqHT-xyJtuEShagB2aS4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;fontSize=13;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-9" target="oqHT-xyJtuEShagB2aS4-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oqHT-xyJtuEShagB2aS4-9" value="\( \Delta t_{ij}&#39; = \text{sign}(\Delta t_{ij}) \cdot \max(|\Delta t_{ij}| - p, 0) \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="170" y="360" width="240" height="60" as="geometry" />
+          <mxGeometry x="170" y="420" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oqHT-xyJtuEShagB2aS4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;fontSize=13;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-10" target="oqHT-xyJtuEShagB2aS4-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oqHT-xyJtuEShagB2aS4-10" value="\(&amp;nbsp;- \frac{1}{N^2} \sum{i,j=1}^{N} \Delta s_{ij} \cdot \text{sign}(\Delta t_{ij}&#39;) \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="240" height="60" as="geometry" />
+          <mxGeometry x="170" y="330" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oqHT-xyJtuEShagB2aS4-19" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=3;strokeColor=#96c9e9;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="180" y="180" width="40" height="40" as="geometry" />
+          <mxGeometry x="180" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-23" value="\( \frac{\partial \text{loss}_{\text{Total}}}{\partial s_i} \)&lt;br&gt;\( \frac{\partial s_i}{\partial \theta} \)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#e15e47;strokeWidth=3;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-29" value="$$\frac{2}{N} \sum{i=1}^{N} (s_i - t_i) \cdot \frac{\partial s_i}{\partial \theta}$$" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#e15e47;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="460" y="420" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-30" value="&lt;div&gt;$$-\frac{1}{N^2} \sum_{i,j=1}^{N} \left( \left( \frac{\partial s_i}{\partial \theta} - \frac{\partial s_j}{\partial \theta} \right) \cdot \text{sign}(\Delta t_{ij}&#39;) \right)$$&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#e15e47;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="700" y="420" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
