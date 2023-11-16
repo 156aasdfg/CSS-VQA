@@ -1,11 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T12:24:05.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="79lkWB4NjZQPtGZlNvRT" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T12:39:21.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8j5SdrcYbNg8DX7UZqsJ" version="21.2.1" type="github">
   <diagram name="第 1 页" id="4med8xy-RJINhOhO0nk7">
-    <mxGraphModel dx="2074" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4hRFHMQcXpXO8s2cMS95-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#96c9e9;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="270" y="525" width="90" height="55" as="geometry" />
+        <mxCell id="oqHT-xyJtuEShagB2aS4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#808080;strokeWidth=2;" edge="1" parent="1" source="4hRFHMQcXpXO8s2cMS95-1" target="oqHT-xyJtuEShagB2aS4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4hRFHMQcXpXO8s2cMS95-1" value="&lt;i&gt;Image: \( x_i \), for \( i = 1, 2, ..., N \)&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#96c9e9;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="60" y="690" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#808080;strokeWidth=2;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-1" target="oqHT-xyJtuEShagB2aS4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-1" value="&lt;i&gt;MOS: \( t_i \), for \( i = 1, 2, ..., N \)&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#96c9e9;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="240" y="690" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-2" target="oqHT-xyJtuEShagB2aS4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-2" target="oqHT-xyJtuEShagB2aS4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-2" value="&lt;i&gt;Scores:\( s_i = F(x_i; \theta) \),&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#96c9e9;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-5" target="oqHT-xyJtuEShagB2aS4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-5" value="\( \frac{1}{N} \sum{i=1}^{N} (t_i - s_i)^2 \)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#96c9e9;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-7" target="oqHT-xyJtuEShagB2aS4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-7" value="\( \Delta s_{ij} = s_i - s_j \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-8" target="oqHT-xyJtuEShagB2aS4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-8" value="\( \Delta t_{ij} = t_i - t_j \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-9" target="oqHT-xyJtuEShagB2aS4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-9" value="\( \Delta t_{ij}&#39; = \text{sign}(\Delta t_{ij}) \cdot \max(|\Delta t_{ij}| - p, 0) \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1" source="oqHT-xyJtuEShagB2aS4-10" target="oqHT-xyJtuEShagB2aS4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-10" value="\(&amp;nbsp;- \frac{1}{N^2} \sum{i,j=1}^{N} \Delta s_{ij} \cdot \text{sign}(\Delta t_{ij}&#39;) \)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#96c9e9;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oqHT-xyJtuEShagB2aS4-19" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=3;strokeColor=#96c9e9;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
